@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excel formula editor - CodeMirror6</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Excel formula editor</h1>
+    </header>
+    <main>
+      <div class="menu-container">
+        <div class="left-menu">
+          <div>
+            <label for="languageComp">Autocomplete idiom:</label>
+            <select name="languageComp" id="langComp">
+              <option value="en-US" selected>English (en-US)</option>
+              <option value="pt-BR">Portuguese (pt-BR)</option>
+            </select>
+          </div>
+          <div>
+            <label for="decimal-separator">Decimal separator:</label>
+            <select name="decimal-separator" id="separator">
+              <option value="." selected>.</option>
+              <option value=",">,</option>
+            </select>
+          </div>
+        </div>
+        <div class="right-menu">
+          <div>
+            <label for="indent-spaces">
+              Indent spaces:
+              <input name="indent-space" id="indent" type="number" value="4" style="width: 30px"/>
+            </label>
+          </div>
+          <button id="prettier">Prettier!</button>
+        </div>
+      </div>
+      <div id="editor">
+        <!-- code editor goes here  -->
+      </div>
+    </main>
+    <hr>
+    <footer>
+      <a href="" target="_blank">Bug or Feedback?</a>
+      <a href="" target="_blank">GitHub</a>
+      <a href="https://medium.com/@luizzappa" target="_blank">Follow me on Medium</a>
+      <a href="https://twitter.com/imluizzappa" target="_blank">Follow me on Twitter</a>
+    </footer>
+    <script src="./editor.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 10px;
+  min-height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #444;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  min-height: 50px;
+}
+
+main {
+  flex: 1
+}
+
+footer {
+  min-height: 50px;
+  align-self: center;
+  display: flex;
+  place-items: flex-start;
+  gap: 25px;
+  width: max-content;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+#lang {
+  margin-bottom: 25px;
+}
+
+.menu-container {
+  width: 100%;
+  min-width: 668px;
+}
+
+.left-menu {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.right-menu {
+  float: right;
+}
+
+.right-menu div {
+  display: inline;
+}
+
+a:link, a:visited {
+  background-color: #3672f4;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(30, 26, 233);
+}
+
+#editor {
+  min-height: 25px;
+  max-height: calc(100vh - 40px - 30vh);
+}
+.cm-editor { 
+  height: 100%;
+  max-height: inherit;
+}
+.cm-scroller { overflow: auto }
