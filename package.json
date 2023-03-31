@@ -21,7 +21,7 @@
     "@codemirror/view": "^6.9.2",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "codemirror": "^6.0.1",
-    "codemirror-lang-spreadsheet": "^1.0.0",
+    "codemirror-lang-spreadsheet": "^1.0.3",
     "rollup": "^3.18.0"
   },
   "devDependencies": {
