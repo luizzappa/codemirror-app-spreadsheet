@@ -1,8 +1,8 @@
 # CodeMirror Spreadsheet app 
 
-
 This repository is a demo implementation of the CodeMirror [spreadsheet language package](https://github.com/luizzappa/codemirror-lang-spreadsheet).
 
+👉 [Live demo](https://luizzappa.github.io/codemirror-app-spreadsheet/)
 
 ## Features
 
