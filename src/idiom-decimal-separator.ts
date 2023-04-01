@@ -1,7 +1,7 @@
 import {
   spreadsheet,
   Toptions
-} from '../node_modules/codemirror-lang-spreadsheet/dist/index.js';
+} from 'codemirror-lang-spreadsheet';
 import { EditorView } from '@codemirror/view';
 import { Compartment } from '@codemirror/state';
 

@@ -5,7 +5,7 @@ import {
   CompletionResult
 } from '@codemirror/autocomplete';
 import { syntaxTree } from '@codemirror/language';
-import { Toptions } from '../node_modules/codemirror-lang-spreadsheet/dist/index.js';
+import { Toptions } from 'codemirror-lang-spreadsheet';
 import { EditorView } from '@codemirror/view';
 import { Compartment } from '@codemirror/state';
 
