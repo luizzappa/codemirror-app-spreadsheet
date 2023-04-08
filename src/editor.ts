@@ -16,9 +16,9 @@ import { setEditorOptions } from './idiom-decimal-separator';
 import { codePrettier } from './prettier';
 
 const defaultIdiom = 'en-US',
-  inptIdiom = document.getElementById('langComp') as HTMLTextAreaElement,
-  inptSeparator = document.getElementById('separator') as HTMLTextAreaElement,
-  inptIndent = document.getElementById('indent') as HTMLTextAreaElement,
+  inptIdiom = document.getElementById('langComp') as HTMLSelectElement,
+  inptSeparator = document.getElementById('separator') as HTMLSelectElement,
+  inptIndent = document.getElementById('indent') as HTMLInputElement,
   btnPrettier = document.getElementById('prettier') as HTMLButtonElement,
   languageCompart = new Compartment(),
   autocompleteCompart = new Compartment();
